@@ -4,11 +4,136 @@
     "x": 0,
     "y": 0,
     "uniqueID": "d0a3192b-f697-428b-9bd5-38fb6f9220e2",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input (1)",
+            "ioValue": 10,
+            "currentEquation": null
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "4f344a8c-2ff9-4bad-b8c5-71fffc698249",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.19858156028368795,
+            "y": 0.2930327868852459,
+            "uniqueID": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.29609929078014185,
+            "y": 0.29098360655737704,
+            "uniqueID": "77a217d9-f129-4ff1-be37-8aa4fc2ffd9e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.19414893617021275,
+            "y": 0.5245901639344263,
+            "uniqueID": "6a4d4ae3-13dc-417e-bdf5-3f98c9ae26f9",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3049645390070922,
+            "y": 0.5163934426229508,
+            "uniqueID": "a762bd96-4393-435b-a0a5-6ea5ac822a15",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "6a4d4ae3-13dc-417e-bdf5-3f98c9ae26f9",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.025384615384615384,
+            "y": 0.27459016393442626,
+            "uniqueID": "0d626a94-cdcf-47a6-bcf9-5389649c441c",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d",
+            "ap2ID": "77a217d9-f129-4ff1-be37-8aa4fc2ffd9e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "6a4d4ae3-13dc-417e-bdf5-3f98c9ae26f9",
+            "ap2ID": "a762bd96-4393-435b-a0a5-6ea5ac822a15"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x length",
+            "ap1ID": "0d626a94-cdcf-47a6-bcf9-5389649c441c",
+            "ap2ID": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
