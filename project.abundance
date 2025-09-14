@@ -26,8 +26,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19858156028368795,
-            "y": 0.2930327868852459,
+            "x": 0.19946808510638298,
+            "y": 0.2848360655737705,
             "uniqueID": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d",
             "ioValues": [
                 {
@@ -112,6 +112,41 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.16843971631205673,
+            "y": 0.6946721311475409,
+            "uniqueID": "fbda867a-0bc1-4062-82b6-3b6493ae247d",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 6,
+                    "currentEquation": null
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.40425531914893614,
+            "y": 0.6413934426229508,
+            "uniqueID": "cbcbf370-505e-438b-b252-e01ce0e1af61",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
