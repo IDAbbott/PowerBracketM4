@@ -20,7 +20,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "4f344a8c-2ff9-4bad-b8c5-71fffc698249",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "29d07114-fde4-4fbf-abad-48a93cb4f382",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -72,8 +78,8 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 12,
+                    "currentEquation": "12"
                 },
                 {
                     "name": "y length",
@@ -127,8 +133,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 5.5,
-                    "currentEquation": "5.5"
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "yDist",
@@ -146,8 +152,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44150943396226416,
-            "y": 0.47128712871287126,
+            "x": 0.44680851063829785,
+            "y": 0.459016393442623,
             "uniqueID": "c28c4d3f-18af-4c2e-909a-6b2a07913063",
             "ioValues": [
                 {
@@ -157,8 +163,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 5.5,
-                    "currentEquation": "5.5"
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "yDist",
@@ -176,8 +182,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19811320754716982,
-            "y": 0.7683168316831683,
+            "x": 0.1923758865248227,
+            "y": 0.6536885245901639,
             "uniqueID": "1e84d12b-3a92-4810-951e-d56db00d05c9",
             "ioValues": [
                 {
@@ -196,8 +202,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.29056603773584905,
-            "y": 0.7584158415841584,
+            "x": 0.28634751773049644,
+            "y": 0.6618852459016394,
             "uniqueID": "4e24c6f8-5192-4a85-9bd7-06b110a9ccd7",
             "ioValues": [
                 {
@@ -216,8 +222,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4051418439716312,
-            "y": 0.6885245901639344,
+            "x": 0.4122340425531915,
+            "y": 0.6045081967213115,
             "uniqueID": "c080df3d-ec51-47fa-9339-0a310c8a1449",
             "ioValues": [
                 {
@@ -227,8 +233,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": null,
-                    "currentEquation": "5,5"
+                    "ioValue": 9,
+                    "currentEquation": "9"
                 },
                 {
                     "name": "yDist",
@@ -246,8 +252,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4441489361702128,
-            "y": 0.9057377049180327,
+            "x": 0.4414893617021276,
+            "y": 0.709016393442623,
             "uniqueID": "a04c7596-86a7-4711-9f0e-68617d626059",
             "ioValues": [
                 {
@@ -257,8 +263,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 7,
-                    "currentEquation": "7"
+                    "ioValue": 9,
+                    "currentEquation": "09"
                 },
                 {
                     "name": "yDist",
@@ -276,8 +282,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.5558510638297872,
-            "y": 0.31557377049180324,
+            "x": 0.5585106382978723,
+            "y": 0.319672131147541,
             "uniqueID": "29d07114-fde4-4fbf-abad-48a93cb4f382",
             "ioValues": [
                 {
