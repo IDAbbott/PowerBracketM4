@@ -43,8 +43,8 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 86,
-                    "currentEquation": "86"
+                    "ioValue": 88,
+                    "currentEquation": "88"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -233,13 +233,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 35,
-                    "currentEquation": "35"
+                    "ioValue": 36,
+                    "currentEquation": "36"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 50,
-                    "currentEquation": "50"
+                    "ioValue": 49.5,
+                    "currentEquation": "49.5"
                 },
                 {
                     "name": "zDist",
@@ -268,8 +268,8 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -50,
-                    "currentEquation": "-50"
+                    "ioValue": -49.5,
+                    "currentEquation": "-49.5"
                 },
                 {
                     "name": "zDist",
@@ -438,8 +438,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6453900709219857,
-            "y": 0.4836065573770492,
+            "x": 0.7898936170212766,
+            "y": 0.4754098360655738,
             "uniqueID": "dbebebe7-2758-453e-b9e3-0927cd855494",
             "ioValues": [
                 {
@@ -469,6 +469,10 @@
                 {
                     "name": "Shape 2",
                     "ioValue": "89200c76-cd99-456b-bfbc-23ca19a7971f"
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": "974308ce-9e0b-4380-9c51-e596f9c51d44"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -487,7 +491,7 @@
                 },
                 {
                     "name": "Text",
-                    "ioValue": "Strap",
+                    "ioValue": "Maslow Power Supply",
                     "currentEquation": null
                 }
             ],
@@ -564,8 +568,8 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 10,
-                    "currentEquation": "10"
+                    "ioValue": 30,
+                    "currentEquation": "30"
                 },
                 {
                     "name": "zDist",
@@ -738,6 +742,12 @@
             "ap2Name": "geometry",
             "ap1ID": "4f622c96-c597-46b6-87c5-7a011cc4da70",
             "ap2ID": "4db91035-c8b2-4d55-af28-9c7691d04fe9"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap1ID": "974308ce-9e0b-4380-9c51-e596f9c51d44",
+            "ap2ID": "5568a17f-8b0d-4460-8f9e-58b79860689c"
         }
     ],
     "unitsKey": "MM",
