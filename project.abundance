@@ -20,13 +20,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "4f344a8c-2ff9-4bad-b8c5-71fffc698249",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "29d07114-fde4-4fbf-abad-48a93cb4f382",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -122,8 +116,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4457547169811321,
-            "y": 0.297029702970297,
+            "x": 0.44326241134751776,
+            "y": 0.29098360655737704,
             "uniqueID": "f6f81114-708c-41dd-8ca8-c900ae4ea944",
             "ioValues": [
                 {
@@ -133,13 +127,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 5.5,
+                    "currentEquation": "5.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 15,
+                    "currentEquation": "15"
                 },
                 {
                     "name": "zDist",
@@ -163,13 +157,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 5.5,
+                    "currentEquation": "5.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": -15,
+                    "currentEquation": "-15"
                 },
                 {
                     "name": "zDist",
@@ -188,7 +182,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10,
+                    "ioValue": 3,
                     "currentEquation": null
                 },
                 {
@@ -222,8 +216,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4410377358490566,
-            "y": 0.7148514851485148,
+            "x": 0.4051418439716312,
+            "y": 0.6885245901639344,
             "uniqueID": "c080df3d-ec51-47fa-9339-0a310c8a1449",
             "ioValues": [
                 {
@@ -233,13 +227,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": null,
+                    "currentEquation": "5,5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 20,
+                    "currentEquation": "20"
                 },
                 {
                     "name": "zDist",
@@ -252,8 +246,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44198113207547174,
-            "y": 0.902970297029703,
+            "x": 0.4441489361702128,
+            "y": 0.9057377049180327,
             "uniqueID": "a04c7596-86a7-4711-9f0e-68617d626059",
             "ioValues": [
                 {
@@ -263,13 +257,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": 7,
+                    "currentEquation": "7"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
+                    "ioValue": -20,
+                    "currentEquation": "-20"
                 },
                 {
                     "name": "zDist",
@@ -353,6 +347,12 @@
             "ap2Name": "y length",
             "ap1ID": "0d626a94-cdcf-47a6-bcf9-5389649c441c",
             "ap2ID": "6a4d4ae3-13dc-417e-bdf5-3f98c9ae26f9"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x length",
+            "ap1ID": "0d626a94-cdcf-47a6-bcf9-5389649c441c",
+            "ap2ID": "1e84d12b-3a92-4810-951e-d56db00d05c9"
         },
         {
             "ap1Name": "geometry",
