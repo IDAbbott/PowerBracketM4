@@ -476,14 +476,14 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.09042553191489362,
-            "y": 0.8729508196721311,
+            "x": 0.08953900709219859,
+            "y": 0.8709016393442623,
             "uniqueID": "347c8bd5-cc1f-47ea-8f8f-9b2812b02415",
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "Text",
@@ -498,8 +498,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3191489361702128,
-            "y": 0.9385245901639344,
+            "x": 0.30939716312056736,
+            "y": 0.9467213114754098,
             "uniqueID": "4db91035-c8b2-4d55-af28-9c7691d04fe9",
             "ioValues": [
                 {
@@ -509,8 +509,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -529,21 +529,51 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 90,
-                    "currentEquation": "90"
+                    "ioValue": 180,
+                    "currentEquation": "180"
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0,
-                    "currentEquation": "0"
+                    "ioValue": 180,
+                    "currentEquation": "180"
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 0,
-                    "currentEquation": "0"
+                    "ioValue": 90,
+                    "currentEquation": "90"
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.39893617021276595,
+            "y": 0.9344262295081968,
+            "uniqueID": "974308ce-9e0b-4380-9c51-e596f9c51d44",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4db91035-c8b2-4d55-af28-9c7691d04fe9",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": -1.5,
+                    "currentEquation": "-1.5"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 8,
+                    "currentEquation": "8"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -696,6 +726,12 @@
             "ap2Name": "geometry",
             "ap1ID": "347c8bd5-cc1f-47ea-8f8f-9b2812b02415",
             "ap2ID": "4f622c96-c597-46b6-87c5-7a011cc4da70"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "4db91035-c8b2-4d55-af28-9c7691d04fe9",
+            "ap2ID": "974308ce-9e0b-4380-9c51-e596f9c51d44"
         },
         {
             "ap1Name": "geometry",
