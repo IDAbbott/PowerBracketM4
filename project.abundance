@@ -458,8 +458,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5877659574468085,
-            "y": 0.7663934426229507,
+            "x": 0.6968085106382979,
+            "y": 0.7397540983606558,
             "uniqueID": "5568a17f-8b0d-4460-8f9e-58b79860689c",
             "ioValues": [
                 {
@@ -472,6 +472,78 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.09042553191489362,
+            "y": 0.8729508196721311,
+            "uniqueID": "347c8bd5-cc1f-47ea-8f8f-9b2812b02415",
+            "ioValues": [
+                {
+                    "name": "Font Size",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Text",
+                    "ioValue": "Strap",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "ROBOTO",
+            "selectedFontIndex": 0
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3191489361702128,
+            "y": 0.9385245901639344,
+            "uniqueID": "4db91035-c8b2-4d55-af28-9c7691d04fe9",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4f622c96-c597-46b6-87c5-7a011cc4da70",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.18528368794326242,
+            "y": 0.9118852459016393,
+            "uniqueID": "4f622c96-c597-46b6-87c5-7a011cc4da70",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "347c8bd5-cc1f-47ea-8f8f-9b2812b02415",
+                    "currentEquation": null
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 90,
+                    "currentEquation": "90"
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
@@ -618,6 +690,18 @@
             "ap2Name": "geometry2",
             "ap1ID": "5568a17f-8b0d-4460-8f9e-58b79860689c",
             "ap2ID": "dbebebe7-2758-453e-b9e3-0927cd855494"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "347c8bd5-cc1f-47ea-8f8f-9b2812b02415",
+            "ap2ID": "4f622c96-c597-46b6-87c5-7a011cc4da70"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "4f622c96-c597-46b6-87c5-7a011cc4da70",
+            "ap2ID": "4db91035-c8b2-4d55-af28-9c7691d04fe9"
         }
     ],
     "unitsKey": "MM",
