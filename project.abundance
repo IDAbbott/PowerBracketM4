@@ -32,8 +32,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19946808510638298,
-            "y": 0.2848360655737705,
+            "x": 0.20212765957446807,
+            "y": 0.2807377049180328,
             "uniqueID": "8789f14f-e92e-404b-b0a0-a75bc20bfd1d",
             "ioValues": [
                 {
@@ -43,8 +43,8 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 30,
-                    "currentEquation": "30"
+                    "ioValue": 80,
+                    "currentEquation": "80"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -72,14 +72,14 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19592198581560286,
-            "y": 0.5184426229508197,
+            "x": 0.18882978723404256,
+            "y": 0.4877049180327869,
             "uniqueID": "6a4d4ae3-13dc-417e-bdf5-3f98c9ae26f9",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 12,
-                    "currentEquation": "12"
+                    "ioValue": 35,
+                    "currentEquation": "35"
                 },
                 {
                     "name": "y length",
@@ -122,8 +122,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44326241134751776,
-            "y": 0.29098360655737704,
+            "x": 0.4423758865248227,
+            "y": 0.2807377049180328,
             "uniqueID": "f6f81114-708c-41dd-8ca8-c900ae4ea944",
             "ioValues": [
                 {
@@ -133,13 +133,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 5,
-                    "currentEquation": "5"
+                    "ioValue": 17.5,
+                    "currentEquation": "17.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 15,
-                    "currentEquation": "15"
+                    "ioValue": 40,
+                    "currentEquation": "40"
                 },
                 {
                     "name": "zDist",
@@ -163,13 +163,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 5,
-                    "currentEquation": "5"
+                    "ioValue": 17.5,
+                    "currentEquation": "17.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -15,
-                    "currentEquation": "-15"
+                    "ioValue": -40,
+                    "currentEquation": "-40"
                 },
                 {
                     "name": "zDist",
@@ -193,8 +193,8 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 15,
+                    "currentEquation": "15"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -233,13 +233,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 9,
-                    "currentEquation": "9"
+                    "ioValue": 35,
+                    "currentEquation": "35"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 20,
-                    "currentEquation": "20"
+                    "ioValue": 47.5,
+                    "currentEquation": "47.5"
                 },
                 {
                     "name": "zDist",
@@ -263,13 +263,13 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 9,
-                    "currentEquation": "09"
+                    "ioValue": 17.5,
+                    "currentEquation": "17.5"
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -20,
-                    "currentEquation": "-20"
+                    "ioValue": -47.5,
+                    "currentEquation": "-47.5"
                 },
                 {
                     "name": "zDist",
